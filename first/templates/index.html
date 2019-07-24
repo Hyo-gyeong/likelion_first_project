@@ -1,0 +1,76 @@
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <title>멋사 중앙과제 1</title>
+    <style>
+        div.contents{
+            margin: 50px 100px;
+            border: 1px solid black;
+            padding:20px;
+            border-radius: 10px;
+            background-color:rgb(223, 248, 248);
+        }
+        @font-face { 
+            font-family: 'UhBeeMiMi'; 
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_five@.2.0/UhBeeMiMi.woff') format('woff'); 
+            font-weight:60px; 
+            font-style:normal; 
+            }
+        body {
+            font-family: 'UhBeeMiMi';
+            font-size:20px;
+        }
+    </style>
+    
+</head>
+<body>
+    <div>
+        <nav class="navbar navbar-dark bg-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#">Likelion</a>
+            <a class="navbar-brand" href="#">Hyo-Gyeong</a>
+            <a class="navbar-brand" href="#">Navbar</a>
+            <a class="navbar-brand" href="#">Home</a>
+            <a class="navbar-brand" href="#">Link</a>
+        
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </nav>
+    </div>
+    <div class="contents">
+        <p style="font-size: 30px;"><strong>자기 소개</strong></p>
+        <p>2019-05-23</p>
+        <p>안녕하세요. 동덕여대 컴퓨터학과 19학번 신효경입니다. <br>
+        개발이 간~~~~~~~~~~~~~~~절한 아이디어는 없지만; 개발에 필요한 지식을 얻고싶어서 멋사에 들어오게 되었습니다. <br>
+        컴퓨터는 재미있는 것 같아요. 알맞은 코드를 치면 서버가 돌아가는것도 재미있고 제가 원하는대로 컴퓨터라는 도구를 사용하는것도 재미있어요! <br>
+        아직은 컴퓨터라는걸 공부한 지 3달밖에 되지 않았지만 멋사에서 더 많이 공부하고 컴퓨터에 대한 공부도 더 많이 해서 개발에 대한 재미도 얼른 붙였으면 좋겠어요!ㅎㅎ
+        </p>
+    </div>
+    <div class="contents">
+            <p style="font-size: 30px;"><strong>IT서비스 소개</strong></p>
+            <p>2019-05-23</p>
+            <p>커피숍별로 맞춤형 음료를 아주 자유롭게 등록할 수 있는 앱이 있으면 좋겠습니다~~ <br><br>
+            스타벅스같은 커피숍은 그런 시스템을 운영하고 있기는 하지만 음료안에 넣을 수 있는 재료가 제한적이고 그 양도 제한적이며 불분명하기 때문에 저같은 경우는 커피에 초코칩을 넣고싶은데 못넣은 경험도 있고 바리스타마다 만든 음료의 맛이 달라서 같은 옵션으로 주문한 음료인데도 별로 맛없는 음료를 먹은적도 있어요~ <br>
+            음료에 넣을 수 있는 재료와 그 음료의 가격도 유동적으로 개개인에 맞게 등록할 수 있다면 좀 더 편리하고 내 입맛에 가장 맞는 음료를 바리스타에 상관없이 항상 같은 맛으로 즐길 수 있지 않을까요?? <br><br>
+            음료의 기본 세팅은 되어있고 거기에 자신이 원하는 것을 퍼센테이지에 맞게 넣는거에요~ <br>
+            예를들어 코코아에 에스프레소 샷을 추가하고싶을때를 생각해볼께요. <br>
+            앱에 코코아가루 30% 우유 60% 얼음 10% 총 100%로 세팅된 코코아가 보기쉽게 음료그림으로 나와있어요.
+            (밑에서 부터 가로로 나뉘어져서) 거기에 저는 샷을 추가 하고 싶으니까 샷추가를 누르면 음료의 적정한 곳에 적정한 양의 샷이 추가되고 사용자는 그 양을 퍼센테이지 바(bar)로 조정해서 원하는 양을 조정하고 우유나 얼음같은 재료는 퍼센테이지를 줄여서 음료를 100%이하로 세팅하는거죠. 
+            <br><br>추가로 사용자들이 자신들의 음료를 소개해서 인기가 많은 음료로 뽑히면 기프티콘을 주는 등의 혜택을 주는 이벤트도 하면 좋을 것 같아요! 이상 저의 소소한 IT서비스 소개였습니다~~^^
+            </p>
+    </div>
+    <div class="contents">
+            <p style="font-size: 30px;"><strong>각오!</strong></p>
+            <p>2019-05-23</p>
+            <p>진짜 열심히 할꺼에요!!!!!!!!!!!!!! <br>
+                강의도 계속 복습하고 프로젝트 파는것도 무수히 많이 연습해서 아주아주 손에 익도록 공부할것입니다!!!!!  <br>
+                왜냐면 아직 1학년인 저는 컴퓨터의 많은 기능을 '능수능란'하게 다루고싶으니까요!!!!!!!!!!!!!!!!!! ....^//^♥♡
+            </p>
+    </div>
+</body>
